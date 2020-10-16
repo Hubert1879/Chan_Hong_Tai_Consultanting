@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-master/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="CSS/all.min.css"> -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> -->
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="JS/pdfobject.min.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/main.js"></script>
+</head>
+
+<body id="body">
+
+    <div id="mySidenav" class="sidenav">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+		<ul>
+			<li><a href="index.html">主頁</a></li>
+            <li><a href="Interior-design.html">風水</a></li>
+            <li><a href="Interior-examples.html">風水實例</a></li>
+			<li><a href="career-advice.html">事業運</a></li>
+            <li><a href="life_advice.html">鐵版神數</a></li>
+            <li><a href="immigration_advice.html">移民就業</a></li>
+            <li><a href="study-abroad.html">移民升學</a></li>
+            <li><a href="brand.html">精算姓名學</a></li>
+            <li><a href="books.html">皇極經世批命</a></li>
+			<li class="level1-menu">
+			<a href="#">媒體採訪<span><i class="fa fa-angle-down"></i></span></a>
+			<ul class="sub-menu">
+                <li><a href="interviews.html">媒體採訪</a></li>
+				<li><a href="interview1.html">媒體採訪</a></li>
+                <li><a href="interview2.html">媒體採訪</a></li>
+                <li><a href="interview3.html">媒體採訪</a></li>
+                <li><a href="interview4.html">媒體採訪</a></li>
+                <li><a href="interview5.html">媒體採訪</a></li>
+                <li><a href="interview6.html">媒體採訪</a></li>
+                <li><a href="interview7.html">媒體採訪</a></li>
+                <li><a href="interview8.html">媒體採訪</a></li>
+                <li><a href="interview9.html">媒體採訪</a></li>
+                <li><a href="interview10.html">媒體採訪</a></li>
+                <li><a href="interview11.html">媒體採訪</a></li>
+                <li><a href="interview12.html">媒體採訪</a></li>
+                <li><a href="interview13.html">媒體採訪</a></li>
+                <li><a href="interview14.html">媒體採訪</a></li>
+                <li><a href="interview15.html">媒體採訪</a></li>
+                <li><a href="interview16.html">媒體採訪</a></li>
+			</ul>
+			</li>
+            <li><a href="chinese-wedding.html">結婚擇日</a></li>
+            <li><a href="#">精算姓名學</a></li>
+			<li><a href="contact.html">聯絡我們</a></li>
+		</ul>
+    </div>
+
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="navStatus()">&#9776;</span>
+    </div>
+
+    <div id="test" class="Main books">
+        <!-- <div class="container-fluid p0">
+        <div class="col-md-12 col-sm-12 p0">
+            <div class="col-md-12 col-sm-12 p0">
+               <div class="col-md-12 p0">
+                  <div class="book-title">
+                      <h1> Books</h1>
+                      <div class="banner-border"></div> <br>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                 </div>
+              </div>
+          </div>
+       </div> -->
+
+        <div class="container-fluid p0">
+            <div class="col-md-12 col-sm-12 p0 life-advice-section">
+                <div class="col-md-12 col-sm-12 p0">
+                    <div class="col-md-12 p0">
+                        <img src="images/Book/book_banner.png" class="img-responsive top-banner-img main-book-banner img-width100">
+                    </div>
+                    <div class="col-md-12 p0">
+                        <div class="brown-heading-section">
+                            <div class="name-heading">
+                                <!-- <h1 class="name"> BOOKS</h1> -->
+                                <div class="name-heading-life life-advice">
+                                    <img src="images/Book/book_1.png" class="img-responsive img-width100 disp">
+                                    <img src="images/Book/book_2.png" class="img-responsive img-width100 disp">
+                                    <img src="images/Book/book_3.png" class="img-responsive img-width100 disp">
+                                    <img src="images/Book/book_4.png" class="img-responsive img-width100 disp">
+                                    <img src="images/Book/Book_5.png" class="img-responsive img-width100 disp">
+                                    <img src="images/Book/Book_6.png" class="img-responsive img-width100 disp">
+                                </div>
+                            </div>
+                            <div class="banner-border"></div> <br>
+                            <p>鐵版神數是一門博大精深的學問，其精密之程度，可詳細察看人生每年之運程，甚至了解前生後世命格。批命服務也因此分為不同規模，方便客人所需。
+
+                                批算時，師傅會按照客人之背景，略為調整分析內容。例如向青少年集中講及學業運、向初創業者查探有利是發展方向、向適婚年齡之單身人士重點分析姻緣運，各適其適。
+                                </p>
+                            <div class="text-center">
+                                <i class="fa fa-angle-double-down"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- top banner section end -->
+
+
+
+
+
+        <!-- book1 -->
+        <div class="container-fluid p0 book">
+            <div class="col-md-12 col-sm-12 p0 ">
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <h2>精批：基本批命（潤金：$6,800）
+                    </h2>
+                    <div class="border"></div> <br><br>
+                </div>
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <div class="border-right"></div>
+                    <div class="col-md-6 col-sm-6 p0">
+                        <img src="images/Book/firstbook.gif" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 col-sm-6 p0">
+                        <p>精批是最基本的批命服務，客人可了解人生發展概要。內容分為兩部分：人生大綱及流年運程。</p>
+                        <ul>
+                            <li>人生大綱：算出六親生肖、自身性格及運程、出生至晚運的整體走勢（包括健康運、姻緣運及子女運），及如何有效趨吉避凶。</li>
+
+                            <li>流年運程：每兩年之運程，直至壽終為止。</li>
+
+                            <li>適合對象：所有人、青少年、兒童</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- book1 -->
+
+
+        <!-- book2 -->
+        <div class="container-fluid p0 book">
+            <div class="col-md-12 col-sm-12 p0 ">
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <h2>金精批：基本批命＋事業運勢分析 （潤金：$9,800）
+                    </h2>
+                    <div class="border"></div> <br><br>
+                </div>
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <div class="border-right"></div>
+                    <div class="col-md-6 col-sm-6 p0">
+                        <img src="images/Book/myvideo.gif" class="img-responsive" loop="false">
+                    </div>
+                    <div class="col-md-6 col-sm-6 p0">
+                        <p>如欲得知更多有關事業的運勢，可以選擇金精批服務，同樣分為人生大綱及流年運程兩部分。</p>
+                            <ul>
+                                <li>
+                            人生大綱：算出六親生肖、自身性格及運程、出生至晚運的整體走勢（包括健康運、姻緣運、子女運及事業運）及趨吉避凶攻略。所有項目會比精批更仔細地批算，另外加上更多事業發展的分析。</li>
+                            
+                            <li>流年運程：每年運程，直至壽終為止。</li>
+                            
+                            <li>適合對象：大學畢業生、事業起步者</li>
+                            </ul>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- book2 -->
+
+        <!-- book3 -->
+        <div class="container-fluid p0 book">
+            <div class="col-md-12 col-sm-12 p0 ">
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <h2>進階批命＋基本事業財運分析: 特批 （潤金：15,800)
+                    </h2>
+                    <div class="border"></div> <br><br>
+                </div>
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <div class="border-right"></div>
+                    <div class="col-md-6 col-sm-6 p0">
+                        <img src="images/Book/orangebook.gif" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 col-sm-6 p0">
+                        <p>特批是較詳盡的批命服務，除了整體運程外，還會集中講及人際及財富走勢。</p>
+                            <ul>                            
+                                <li>人生大綱：算出六親的命運概要、自身性格及運程、出生至晚運整體走勢（包括健康運、姻緣運及子女運、事業運及移民運）、田宅家居門向方位、趨吉避凶攻略。</li>
+                            
+                                <li> 事業財運：分析交友宮及僱用宮，了解與上司及下屬之關係，確保事業上團結一致。批算出人生財富數量，如何能洞悉先機、低風險高回報地地投資。</li>
+                                    
+                                <li>流年運程：每年運程，直至壽終為止。</li>
+                                
+                                <li>適合對象：事業起步者、事業略有小成者、投資者</li>
+                            </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- book3 -->
+
+        <!-- book1 -->
+        <div class="container-fluid p0 book">
+            <div class="col-md-12 col-sm-12 p0 ">
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <h2>進階批命＋全方位事業財運分析: 皇極批 （潤金：$38,000)
+                    </h2>
+                    <div class="border"></div> <br><br>
+                </div>
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <!-- <div class="border-right"></div> -->
+                    <div class="col-md-6 col-sm-6 p0">
+                        <img src="images/Book/purplebook.gif" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 col-sm-6 p0">
+                        <p>皇極批包括人生大綱、流年運程、每年皇極遁甲及重點分析事業財運，有助客人邁向事業高峰。</p>
+                            <ul>
+                            <li>人生大綱：批算六親的命運概要、自身性格及運程（包括健康運、姻緣運及子女運、移民運）、出生至晚運整體走勢、田宅家居門向方位、趨吉避凶攻略。</li>
+                            
+                            <li>事業財運：分析交友宮及僱用宮，如何與上司、合伙人及下屬融洽相處。辦公室內的人際攻略。批算出人生財富數量，如何能洞悉先機、低風險高回報地投資。詳盡分析世界博奕格局，如何把握命中機遇，走向事業高峰。</li>
+                            
+                            <li>皇極遁甲：分析每年趨吉避凶之要素重點，例如衣著顏色吉凶、有利之家居工作方向、貴人小人的生肖。</li>
+                            
+                            <li>流年運程：每年運程，直至壽終為止。</li>
+                            
+                            <li>適合對象：事業略有小成者、投資者、事業如日方中者</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- book1 -->
+
+        <!-- book1 -->
+        <div class="container-fluid p0 book">
+            <div class="col-md-12 col-sm-12 p0 ">
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <h2>全方位批命: 皇極金精批（潤金：$58,000)
+                    </h2>
+                    <div class="border"></div> <br><br>
+                </div>
+                <div class="col-md-12 col-sm-12 p0 book-section">
+                    <!-- <div class="border-right"></div> -->
+                    <div class="col-md-6 col-sm-6 p0">
+                        <img src="images/Book/mebook.gif" class="img-responsive">
+                        <img src="images/Life_advice/10.png" class="img-responsive ipad-View">
+                    </div>
+                    <div class="col-md-6 col-sm-6 p0">
+                        <p>皇極金精批是為全面及詳盡的批命服務，除人生運程發展、趨吉避凶攻略外，還可了解前生後世命格，及適合自己的養生之道。</p>
+                            <ul>
+                            <li>人生大綱：批算六親的命運概要、自身性格及運程（包括健康運、姻緣運及子女運、移民運）、出生至晚運整體走勢、田宅家居門向方位、趨吉避凶攻略。</li>
+                            
+                            <li>事業財運：分析從事之行業及其五行是否相配，哪個行業適合發展。分析交友宮及僱用宮，如何與上司、合伙人及下屬融洽相處、整體人際攻略。批算出正偏財運及人生財富數量，如何能洞悉先機、低風險高回報地投資。詳盡分析世界博奕格局，如何把握命中機遇，走向事業高峰。</li>
+                            
+                            <li>皇極遁甲：分析每年趨吉避凶之要素重點，例如衣著顏色吉凶、有利之家居工作方向、貴人小人的生肖。</li>
+                            
+                            <li>流年運程：每年運程，直至壽終為止。</li>
+                            
+                            <li>其他：前生及後世命格、養生之道、總結一生之貢獻。</li>
+                            
+                            <li>適合對象：事業略有小成者、投資者、事業如日方中者</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border"></div><br/>
+        <!-- book1 -->
+        <div class="book">
+            <div class="container">
+                <div class="row m-0">
+                    <!-- reduce width 8%(approx) when using col-md-offset-2 col-md-9 this class -->
+                    <div class="w-100 ml-auto book-section">
+                        <h1 class="text-center">全方位批命: 皇極金精批 批命樣本</h1>                    
+                        <div id="pdfBook"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- contact-->
+        <div class="container-fluid contact-us p0">
+            <div class="col-md-12 p0 col-sm-12">
+                <!-- <h2>Contacts</h2> -->
+                <div class="name-translate contact-us-title">
+                    <img src="images/contact_1.png" class="img-responsive img-width100">
+                    <img src="images/contact_2.png" class="img-responsive img-width100">
+                    <img src="images/contact_3.png" class="img-responsive img-width100">
+                    <img src="images/contact_4.png" class="img-responsive img-width100">
+                    <!-- <img src="images/contact_5.png" class="img-responsive img-width100">
+                    <img src="images/contact_6.png" class="img-responsive img-width100"> -->
+                </div>
+                <div class="border"></div> <br>
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>-->
+            </div>
+
+            <div class="col-md-12 col-sm-12 address-details p0">
+                <div class="col-md-6 col-sm-6 footer-0">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.0399202164776!2d114.1679653148389!3d22.314329948024703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c0d303ffed%3A0x9e07f58a3ffb909e!2sHelppo%20Inc!5e0!3m2!1sen!2sin!4v1597069403684!5m2!1sen!2sin"
+                        width="100%" height="330" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6 col-sm-6 mt30px footer-0">
+                    <div class="col-md-12 p0 m10">
+                        <div class="icon-box">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text-box">
+                            <h5><b class="chinese-font">電話號碼</b> : 2385 1715 2385 17 45<span class="chinese-font"> 香港</span></h5>
+                        </div>
+                    </div>
+                    <div class="col-md-12 p0 m10">
+                        <div class="icon-box">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text-box">
+                            <h5> <b class="chinese-font">電子郵件</b> : chanhongtaihk@gmail.com</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-12 p0 m10">
+                        <div class="icon-box">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text-box">
+                            <h5><b>Address</b> : B 13/F, Wing Wong Commercial Building, </h5>
+                            <h5> 557-559 Nathan Road, Kowloon, Hong Kong. </h5>
+                            <h5> <span class="chinese-font"> 香港九龍油麻地 彌敦道</span> 557-559<span class="chinese-font">號 永旺行</span>13 <span class="chinese-font"> 樓</span>B</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 p0 m10">
+                        <div class="icon-box">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <div class="text-box">
+                            <h5> <b>辦公時間</b> : 因為疫情關係, 敬請預約! </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- contact-->
+
+
+    </div>
+
+</body>
+<script>
+    var options = {
+    height:'700px',
+	pdfOpenParams: {
+		navpanes: 1,
+		view: "FitH",
+		pagemode: "thumbs"
+	}
+};
+
+PDFObject.embed("pdf/test.pdf", "#pdfBook", options);
+</script>
+</html>
